@@ -8,20 +8,20 @@
 
 export const siteConfig = {
   /** The main name displayed in the navbar, hero, and footer */
-  siteName: "Merdifica&ccedil;&atilde;o",
+  siteName: "Merdificação",
 
   /** Subtitle shown below the name in the navbar */
-  siteSubtitle: "a degrada&ccedil;&atilde;o causada pela ganancia humana",
+  siteSubtitle: "a degradação causada pela ganancia humana",
 
   /** Motto/tagline shown in the hero badge */
-  siteMotto: "&#128169;",
+  siteMotto: "💩",
 
   /** Default meta description for SEO */
   siteDescription:
-    "Um site educacional sobre a merdifica&ccedil;&atilde;o, a degrada&ccedil;&atilde;o causada pela ganancia humana. Explore a hist&oacute;ria, estrutura e galeria de imagens relacionadas a este fen&ocirc;meno.",
+    "Um site educacional sobre a merdificação, a degradação causada pela ganancia humana. Explore a hist&oacute;ria, estrutura e galeria de imagens relacionadas a este fen&ocirc;meno.",
 
   /** Base URL for Open Graph / canonical links */
-  siteUrl: "https://your-domain.com",
+  siteUrl: "https://merdificacao.pages.dev",
 
   /** Path to Open Graph image (relative to /public) */
   ogImage: "/og-image.jpg",
