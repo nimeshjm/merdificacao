@@ -20,12 +20,12 @@ import rocketLauncher from "../assets/rocket-launcher.jpg";
 // ── Hero Section ───────────────────────────────────────────
 export const heroData = {
   /** Large heading text */
-  heading: "[UNIT NAME]",
+  heading: "Merdificação",
   /** Subtitle below the heading (also in i18n as hero.subtitle) */
-  subtitle: "[UNIT SUBTITLE]",
+  subtitle: "degradation caused by greed",
   /** Description paragraph */
   description:
-    "The primary operational command of your organization. Ready for rapid deployment across the nation.",
+    "when platforms are good to their users; then they abuse their users to make things better for their business customers; finally, they abuse those business customers to claw back all the value for themselves. Then, they die.",
   /** CTA button labels (also in i18n) */
   cta1Label: "Our History",
   cta1Href: "/sejarah",
