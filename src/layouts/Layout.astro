@@ -14,7 +14,7 @@ const canonicalUrl = new URL(Astro.url.pathname, siteConfig.siteUrl);
 ---
 
 <!doctype html>
-<html lang="id">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -80,7 +80,7 @@ const canonicalUrl = new URL(Astro.url.pathname, siteConfig.siteUrl);
           const key = el.getAttribute("data-i18n");
           if (key && translations[key]) {
             (el as HTMLElement).textContent =
-              translations[key][lang] || translations[key]["id"];
+              translations[key][lang] || translations[key]["pt"];
           }
         });
 
@@ -89,30 +89,30 @@ const canonicalUrl = new URL(Astro.url.pathname, siteConfig.siteUrl);
           const key = el.getAttribute("data-i18n-html");
           if (key && translations[key]) {
             (el as HTMLElement).innerHTML =
-              translations[key][lang] || translations[key]["id"];
+              translations[key][lang] || translations[key]["pt"];
           }
         });
 
         // Update lang attribute
-        document.documentElement.lang = lang === "en" ? "en" : "id";
+        document.documentElement.lang = lang === "en" ? "en" : "pt";
 
         // Update toggle label
         const label = document.getElementById("lang-label");
-        if (label) label.textContent = lang === "en" ? "EN" : "ID";
+        if (label) label.textContent = lang === "en" ? "EN" : "pt";
 
         localStorage.setItem("lang", lang);
       }
 
       document.addEventListener("DOMContentLoaded", () => {
         // Language
-        const savedLang = localStorage.getItem("lang") || "id";
+        const savedLang = localStorage.getItem("lang") || "pt";
         applyLanguage(savedLang);
 
         const toggle = document.getElementById("lang-toggle");
         if (toggle) {
           toggle.addEventListener("click", () => {
-            const current = localStorage.getItem("lang") || "id";
-            const next = current === "id" ? "en" : "id";
+            const current = localStorage.getItem("lang") || "pt";
+            const next = current === "pt" ? "en" : "pt";
             applyLanguage(next);
           });
         }
