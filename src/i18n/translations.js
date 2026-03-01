@@ -25,27 +25,27 @@ export const translations = {
   // ========================================
   "hero.subtitle": { pt: "a degradação causada pela ganancia humana", en: "degradation caused by greed" },
   "hero.desc": {
-    pt: "Komando utama operasional organisasi Anda. Siap digerakkan ke seluruh wilayah demi menjaga kedaulatan.",
-    en: "The primary operational command of your organization. Ready for rapid deployment across the nation to defend sovereignty.",
+    pt: "E assim é como as plataformas morrem: primeiro, elas são boas para seus usuários; depois, elas abusam de seus usuários para melhorar as coisas para seus clientes empresariais; finalmente, elas abusam desses clientes empresariais para recuperar todo o valor para si mesmas. Então, elas morrem.",
+    en: "Here is how platforms die: first, they are good to their users; then they abuse their users to make things better for their business customers; finally, they abuse those business customers to claw back all the value for themselves. Then, they die.",
   },
-  "hero.cta1": { pt: "Sejarah Kami", en: "Our History" },
-  "hero.cta2": { pt: "Struktur Organisasi", en: "Organization" },
+  "hero.cta1": { pt: "Historia", en: "Our History" },
+  "hero.cta2": { pt: "Organização", en: "Organization" },
 
   // ========================================
   // HOMEPAGE
   // ========================================
-  "home.history.label": { pt: "Sejarah", en: "History" },
+  "home.history.label": { pt: "Historia", en: "History" },
   "home.history.title": {
-    pt: 'Perjalanan <span class="text-primary">[Unit Name]</span>',
-    en: 'The Journey of <span class="text-primary">[Unit Name]</span>',
+    pt: 'A evolucao da <span class="text-primary">merdificacao</span>',
+    en: 'The Journey of <span class="text-primary">enshitification</span>',
   },
   "home.history.desc": {
-    pt: "Sejak berdiri, unit ini telah menjalankan berbagai operasi dan misi yang membentuk identitasnya sebagai kekuatan strategis.",
-    en: "Since its founding, this unit has carried out numerous operations and missions that shaped its identity as a strategic force.",
+    pt: "Desde o início, a merdificação tem sido uma força estratégica no cenário digital.",
+    en: "Since the beginning, enshitification has been a strategic force in the digital landscape.",
   },
-  "home.history.cta": { pt: "Selengkapnya", en: "Read More" },
+  "home.history.cta": { pt: "Ler mais", en: "Read More" },
 
-  "home.org.label": { pt: "Organisasi", en: "Organization" },
+  "home.org.label": { pt: "Organizacao", en: "Organization" },
   "home.org.title": {
     pt: 'Divisi <span class="text-primary">[Type]</span>',
     en: '<span class="text-primary">[Type]</span> Divisions',
